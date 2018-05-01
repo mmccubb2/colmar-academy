@@ -283,7 +283,6 @@ nav.main li a:not(:hover) {
   margin: 16px;
 }
 
-
 .course.mobile {
   display: none;
 }
@@ -306,4 +305,25 @@ nav.main li a:not(:hover) {
   letter-spacing: .12em;
   font-size: .9em;
   color: dodgerblue;
+}
+
+/* ---------------- Thesis Section ------------------- */
+.container.thesis .one {
+  border-right: 0px;
+}
+
+.container.thesis .story.second {
+  border-bottom: 0px;
+}
+
+.container.thesis .one h3 {
+  padding-top: 24px;
+}
+
+.container.thesis .container.stories p {
+  padding-bottom: 0px;
+}
+
+.container.thesis h2 {
+  padding-top: 32px;
 }
