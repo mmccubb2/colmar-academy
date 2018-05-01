@@ -1,0 +1,79 @@
+/* -- General Styles -- */
+html {
+  font-family: Veranda, sans-serif;
+  font-size: 16px;
+  color: #444;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/* ------------------- Header Styles ----------------- */
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  top: 0;
+}
+
+.logo{
+  display: flex;
+  padding-left: 24px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: auto;
+  height: 2.8rem;
+}
+
+.logo span {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: .02em;
+}
+
+span .academy {
+  font-size: 32px;
+  font-weight: lighter;
+  color: #999;
+}
+
+/* --------------------- Header Navigation ---------------- */
+nav {
+display: flex;
+align-items: center;
+padding-right: 24px;
+}
+
+nav.mobile {
+  display: none;
+}
+
+nav.main li {
+  display: inline;
+  padding: 8px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+}
+
+/* ---------------- Desktop Nav Animations ----------------- */
+
+nav.main li a:hover {
+  transition: color 200ms linear;
+  color: #999;
+}
+
+nav.main li a:not(:hover) {
+  transition: color 400ms linear;
+}
