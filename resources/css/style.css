@@ -227,6 +227,7 @@ nav.main li a:not(:hover) {
 
 .story.third {
   background-color: GAINSBORO;
+  margin-bottom: 2em;
 }
 
 .text-area {
@@ -255,4 +256,54 @@ nav.main li a:not(:hover) {
 
 .text-area p.link a:not(:hover) {
   transition: color 200ms ease-in;
+}
+
+/* ------------------ LEARNING SECTION -------------- */
+.container.learning,
+.container.thesis {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container.learning h2 {
+  padding-top: 32px;
+}
+
+.course-section {
+  display: flex;
+  padding: 32px 72px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  background-color: #FFF;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .1);
+  width: 29%;
+  margin: 16px;
+}
+
+
+.course.mobile {
+  display: none;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course .course-txt {
+  padding: 16px;
+}
+
+.course .course-txt h3, p {
+  padding-bottom: 8px;
+}
+
+.course .course-txt p.course-name {
+  font-weight: 400;
+  letter-spacing: .12em;
+  font-size: .9em;
+  color: dodgerblue;
 }
