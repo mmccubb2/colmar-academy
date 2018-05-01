@@ -29,6 +29,23 @@ h3 {
   font-weight: 500;
 }
 
+.caption {
+  font-size: .75rem;
+}
+
+p {
+  font-size: .95rem;
+  letter-spacing: .04rem;
+  line-height: 1.5rem;
+  font-weight: regular;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+  cursor: pointer;
+}
+
 /* ------------------- Header Styles ----------------- */
 header {
   display: flex;
@@ -90,7 +107,7 @@ nav a {
 
 nav.main li a:hover {
   transition: color 200ms linear;
-  color: #FFC300;
+  color: darkorange;
 }
 
 nav.main li a:not(:hover) {
@@ -160,11 +177,82 @@ nav.main li a:not(:hover) {
 /* ----------------------- Button Animation --------------- */
 .button:hover {
   transition: background-color 250ms linear;
-  background-color: #FFC300;
-  border: 2px solid #FFC300;
+  background-color: darkorange;
+  border: 2px solid darkorange;
   cursor: pointer;
 }
 
 .button:not(:hover) {
   transition: background-color 200ms linear;
+}
+
+/* ---------------- Information Section Styles ----------- */
+.two {
+  width: 40%;
+  padding-top: 32px;
+}
+
+.container.stories h2 {
+  padding: 32px 0px 24px 0px;
+}
+
+.container.stories p {
+  padding-bottom: 32px;
+}
+
+.container.stories .one {
+  border-right: 1px solid GAINSBORO;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid GAINSBORO;
+}
+
+.story img {
+  width: 35%;
+  height: auto;
+  padding: 0px 24px 16px 16px;
+}
+
+.story.second img,
+.story.third img {
+  padding-top: 16px;
+}
+
+.story img.mobile-article {
+  display: none;
+}
+
+.story.third {
+  background-color: GAINSBORO;
+}
+
+.text-area {
+  width: 65%;
+  padding-right: 5%;
+}
+
+.text-area p.link a {
+  padding-bottom: 0px;
+  color: dodgerblue;
+}
+
+.story .text-area p, h3 {
+  padding-bottom: 8px;
+}
+
+.text-area p.link {
+  padding-bottom: 0px;
+}
+
+/* ------------ Text Area Animations ----------- */
+.text-area p.link a:hover {
+  transition: color 200ms ease-in;
+  color: darkorange;
+}
+
+.text-area p.link a:not(:hover) {
+  transition: color 200ms ease-in;
 }
