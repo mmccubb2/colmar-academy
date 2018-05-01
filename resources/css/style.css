@@ -380,3 +380,30 @@ footer .footer-nav {
 }
 
 /* --------------------- MEDIA QUERIES ----------------- */
+/* Desktop
+@media only screen and (min-width:1600px) {
+}
+
+/* Laptop
+@media only screen and (max-width:1600px) {
+}*/
+
+/* Tablet Landscape */
+@media only screen and (max-width:1024px) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .course-section {
+    padding: 32px;
+  }
+
+  .course {
+    width: calc(50% - 2rem);
+  }
+}
