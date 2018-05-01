@@ -433,4 +433,64 @@ footer .footer-nav {
     padding-top: 5px;
     width: 100%;
   }
+
+  /* Banner */
+  .container.banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .one, .two {
+    width: 100%;
+  }
+
+  .one {
+    padding: 0px;
+  }
+
+  .one img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .banner-txt {
+    padding: 25px  16px 40px 16px;
+    width: auto;
+  }
+
+  .button {
+    width: auto;
+  }
+
+  .banner-txt h1, h3 {
+    width: 90%;
+  }
+
+  .two.banner h3 {
+    padding-bottom: 26px;
+  }
+
+  /* Information */
+  .container.stories {
+    flex-direction: column;
+    margin: 8px 0;
+  }
+
+  .container .one p,
+  .container .one h2,
+  .container .one h3,
+  .container .one .caption {
+    padding-left: 16px;
+  }
+
+  .story.first {
+    border-top: 1px solid #dedede;
+    padding-top:16px;
+  }
+
+  /* Thesis */
+  .container.thesis h2 {
+    padding-bottom: 32px;
+  }
 }
