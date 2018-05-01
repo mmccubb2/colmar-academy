@@ -327,3 +327,56 @@ nav.main li a:not(:hover) {
 .container.thesis h2 {
   padding-top: 32px;
 }
+
+/* ------------------ Footer --------------------- */
+footer {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: GAINSBORO;
+  border-top: 1px solid #e6e6e6
+}
+
+footer span {
+  padding-left: 24px;
+  flex-grow: 1;
+}
+
+footer .footer-nav li {
+  display: inline-flex;
+  padding: 0px 6px;
+}
+
+footer .social i {
+  padding-right: 8px;
+}
+
+footer .social i:hover {
+  transition: color 200ms ease-in;
+  color: darkorange;
+}
+
+footer .social i:not(:hover) {
+  transition: color 200ms ease-in;
+}
+
+footer .social {
+  padding-right: 16px;
+}
+
+footer .footer-nav {
+  padding-right: 24px;
+}
+
+/* -- Footer Animations -- */
+.footer-nav li a:hover {
+  transition: color 200ms linear;
+  color: darkorange;
+}
+
+.footer-nav li a:not(:hover) {
+  transition: color 200ms linear;
+}
+
+/* --------------------- MEDIA QUERIES ----------------- */
